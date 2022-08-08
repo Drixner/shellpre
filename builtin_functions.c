@@ -32,8 +32,6 @@ int hsh_exit(char **args, char *input_stdin, int *exit_status)
 	exit(output_exit);
 }
 
-#include "main.h"
-
 /**
  * hsh_env - Function that print enviromental
  * @args: arguments
@@ -60,8 +58,6 @@ int hsh_env(char **args, char *input_stdin, int *exit_status)
 
 	return (1);
 }
-
-#include "main.h"
 
 /**
  * hsh_cd - Change directory
@@ -109,8 +105,6 @@ int hsh_cd(char **args, char *input_stdin, int *exit_status)
 	return (1);
 }
 
-#include "main.h"
-
 /**
  * hsh_setenv - Change or add and environment variable
  * @args: Array of tokens from input
@@ -149,8 +143,6 @@ int hsh_setenv(char **args,  char *input_stdin, int *exit_status)
 	 */
 	return (1);
 }
-
-#include "main.h"
 
 /**
  * hsh_unsetenv - Delete an environment variable from the environment

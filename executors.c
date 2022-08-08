@@ -51,7 +51,6 @@ int hsh_execute(char **arguments, char **argv, int *exit_status)
 	return (1);
 }
 
-#include "main.h"
 
 /**
  * hsh_execute_builtins - Choose from an array of builtin functions

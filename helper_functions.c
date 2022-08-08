@@ -13,8 +13,6 @@ void sigintH(int signum)
 	}
 }
 
-#include "main.h"
-
 /**
  * str_concat - Concatenate two strings
  * @s1: String 1
@@ -56,8 +54,6 @@ char *str_concat(char *s1, char *s2)
 	}
 	return (s);
 }
-
-#include "main.h"
 
 /**
  * _realloc - Reallocate a memory block
